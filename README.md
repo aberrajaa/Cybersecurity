@@ -45,9 +45,9 @@ Ce dossier contient des implémentations du chiffre de Vigenère, démontrant de
 
 ## Pour commencer
 
-Pour utiliser l'un des scripts, clonez ce dépôt sur votre machine locale :
+Pour utiliser l'un des scripts, clonez ce dépôt sur votre machine locale et suivre le Readme associé à chaque dossier. :
 
 ```bash
 git clone https://github.com/yourusername/CybersecurityScripts.git
 
-# Et suivre le Readme associé à chaque dossier.
+
