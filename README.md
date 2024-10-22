@@ -1,6 +1,6 @@
 # Scripts de Cybersécurité
 
-Ce dépôt contient une collection de scripts de cybersécurité développés à des fins diverses, y compris la collecte de données, l'analyse et les tests de sécurité. Les scripts sont organisés en dossiers en fonction de leur fonctionnalité.
+Ce dépôt contient une collection de scripts de cybersécurité développés à des fins éducatives et d'apprentissage, y compris la collecte de données, l'analyse et les tests de sécurité. Les scripts sont organisés en dossiers en fonction de leur fonctionnalité.
 
 ## Table des matières
 
@@ -20,13 +20,13 @@ Ce dépôt contient une collection de scripts de cybersécurité développés à
 Ce dossier contient des scripts conçus pour collecter et analyser des journaux provenant de diverses sources, aidant à identifier les activités suspectes.
 
 ### Hash
-Les scripts de ce dossier traitent des algorithmes de hachage pour la vérification de l'intégrité des données et la sécurité.
+Ce dossier contient un executable permettant de hasher avec MD5, SHA1 et SHA-256 tous les fichiers du disques afin de faire plus tard une analyse des hashs afin de détecter des hashs de fichier malveillant.
 
 ### KeyLogger
-Ce dossier inclut des scripts de keylogging à des fins éducatives, démontrant comment fonctionne le keylogging et ses implications pour la cybersécurité.
+Ce dossier inclut des scripts de keylogging à des fins éducatives, démontrant comment fonctionne le keylogging.
 
 ### MiniParser
-Des scripts qui analysent des données de divers formats de fichiers et en extraient des informations pertinentes se trouvent ici.
+Ce code est un parseur pour un format d'image appelé "Mini-PNG", capable de lire des fichiers binaires contenant des informations sur les dimensions, le type de pixels et les commentaires. Il supporte plusieurs types de pixels, y compris noir et blanc, niveaux de gris, palette, et couleur. Le code inclut également des fonctions pour afficher les images en noir et blanc, ainsi que pour convertir et sauvegarder les images en format PPM, permettant ainsi une visualisation facile des images.
 
 ### RSA
 Ce dossier contient des implémentations de l'algorithme de chiffrement RSA, montrant comment le chiffrement asymétrique peut être utilisé pour une communication sécurisée.
@@ -35,10 +35,10 @@ Ce dossier contient des implémentations de l'algorithme de chiffrement RSA, mon
 Des scripts démontrant le comportement des ransomwares à des fins éducatives et de recherche. Ces scripts doivent être utilisés de manière responsable et éthique.
 
 ### Remote Access Tools
-Ce dossier contient des scripts liés aux outils d'accès à distance, y compris la détection et l'analyse des logiciels d'accès à distance installés.
+Ce dossier contient des scripts liés aux outils d'accès à distance, y compris la détection des logiciels d'accès à distance installés.
 
 ### Reverse Shell
-Des scripts qui démontrent la création de reverse shells à des fins éducatives, mettant en lumière les implications de sécurité de tels outils.
+Des scripts qui démontrent la création de reverse shells à des fins éducatives..
 
 ### Vigenère
 Ce dossier contient des implémentations du chiffre de Vigenère, démontrant des techniques de chiffrement et de déchiffrement de base.
@@ -49,3 +49,5 @@ Pour utiliser l'un des scripts, clonez ce dépôt sur votre machine locale :
 
 ```bash
 git clone https://github.com/yourusername/CybersecurityScripts.git
+
+Et suivre le Readme associé à chaque dossier.
