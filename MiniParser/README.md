@@ -27,7 +27,7 @@ Remplacez <nom_fichier> par le chemin de votre fichier MiniPNG (.mp).
 
 ## Exemple
 ```bash
-python minipng_parser.py exemple.minipng
+python minipng_parser.py exemple.mp
 ```
 
 Cette commande affichera la largeur, la hauteur, le type de pixel et les commentaires du fichier exemple.minipng, et affichera l'image si elle est en noir et blanc. Si l'image est d'un autre type, elle sera convertie au format PPM.
