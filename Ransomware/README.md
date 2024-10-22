@@ -41,11 +41,7 @@ python client_ransom.py
 Ce script se connectera au serveur, récupérera la clé et chiffrera tous les fichiers présents dans le dossier files_to_encrypt. Les fichiers chiffrés auront l'extension .encrypt.
 
 ### 4. Déchiffrement des fichiers
-Après le chiffrement, pour déchiffrer les fichiers, exécutez à nouveau le script client :
-
-```bash
-python client_ransom.py
-```
+Après le chiffrement, pour déchiffrer les fichiers :
 Lorsqu'il demande la clé, entrez la clé affichée par le serveur. Le script tentera de déchiffrer tous les fichiers ayant l'extension .encrypt dans le dossier files_to_encrypt.
 
 ## Notes
