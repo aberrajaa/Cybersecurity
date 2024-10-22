@@ -50,4 +50,4 @@ Pour utiliser l'un des scripts, clonez ce dépôt sur votre machine locale :
 ```bash
 git clone https://github.com/yourusername/CybersecurityScripts.git
 
-Et suivre le Readme associé à chaque dossier.
+# Et suivre le Readme associé à chaque dossier.
