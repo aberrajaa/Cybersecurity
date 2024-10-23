@@ -40,9 +40,9 @@ while True:
     key = input("Key == ")
     fn = Fernet(key)
     try:
-        for path, dirs, files in os.walk(target_directory):  # Utilise le chemin dynamique
+        for path, dirs, files in os.walk(target_directory): 
             for f in files:
-                if f.endswith(".encrypt"):  # Modification ici
+                if f.endswith(".encrypt"):  
                     decrypt(os.path.join(path, f))
                     print(os.path.join(path, f), "restored!")
     except Exception as e:
