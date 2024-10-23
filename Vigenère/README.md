@@ -29,6 +29,14 @@ python vigenere.py --decrypt --input fichier_chiffre.txt --output fichier_dechif
 Le script vigenere_attack.py effectue une attaque par brute force pour retrouver la clé utilisée dans un texte chiffré.
 Limitations : L'attaque par force brute devient impraticable avec des clés de plus de 5 lettres en raison du nombre exponentiel de combinaisons possibles.
 
+## Utilisation
+
+```bash
+python vigenere_attack.py --input fichier_a_dechiffrer.txt --max-key-length 4
+```
+
+NB: Ne fonctionne pas pour les clés de plus de 4 lettres
+
 ## Pistes pour des techniques plus rapides
 Analyse de fréquence : Utiliser les fréquences des lettres et des bigrammes pour réduire le nombre de combinaisons possibles.
 Indices de coïncidence : Utiliser cette méthode pour estimer la longueur de la clé avant d'appliquer d'autres attaques.
