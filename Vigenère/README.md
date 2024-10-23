@@ -38,8 +38,9 @@ python vigenere_attack.py --input fichier_a_dechiffrer.txt --max-key-length 4
 NB: Ne fonctionne pas pour les clés de plus de 4 lettres
 
 ## Pistes pour des techniques plus rapides
-Analyse de fréquence : Utiliser les fréquences des lettres et des bigrammes pour réduire le nombre de combinaisons possibles.
-Indices de coïncidence : Utiliser cette méthode pour estimer la longueur de la clé avant d'appliquer d'autres attaques.
+- Analyse de fréquence : Utiliser les fréquences des lettres et des bigrammes pour réduire le nombre de combinaisons possibles.
+
+- Indices de coïncidence : Utiliser cette méthode pour estimer la longueur de la clé avant d'appliquer d'autres attaques.
 
 ## Exemples de fichiers
 Un exemple de fichier chiffré avec la clé READ est fourni sous le nom fichier_chiffre.txt. Vous pouvez l'utiliser pour tester le déchiffrement ou l'attaque par brute force.
