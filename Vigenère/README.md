@@ -1,6 +1,6 @@
 # Attaque et Chiffrement Vigenère
 
-Ce projet contient deux scripts Python permettant de chiffrer et de déchiffrer des fichiers à l'aide du chiffre de Vigenère, ainsi que d'effectuer une attaque pour deviner la clé de chiffrement utilisée. Il repose sur des techniques cryptographiques simples comme l'indice de coïncidence (IC) et la fréquence des lettres.
+Ce projet contient deux scripts Python permettant de chiffrer et de déchiffrer des fichiers à l'aide du chiffre de Vigenère, ainsi que d'effectuer une attaque pour deviner la clé de chiffrement utilisée.
 
 ## Contenu du projet
 
