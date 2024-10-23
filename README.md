@@ -17,7 +17,7 @@ Ce dépôt contient une collection de scripts de cybersécurité développés à
 ## Description des dossiers
 
 ### Collect_Logs
-Ce dossier contient un executable conçus pour collecter et analyser des journaux provenant de diverses sources, afin de récupérer des IPs, Noms de domaine ... aidant à identifier des IoCs plus tard.
+Ce dossier contient un executable conçus pour collecter et analyser des journaux provenant de diverses sources, afin de récupérer des IPs, URLs ... aidant à identifier des IoCs plus tard.
 
 ### Hash
 Ce dossier contient un executable permettant de hasher avec MD5, SHA1 et SHA-256 tous les fichiers du disques afin de faire plus tard une analyse des hashs afin de détecter des hashs de fichiers malveillants.
