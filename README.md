@@ -1,4 +1,4 @@
-# Scripts de Cybersécurité
+# Collection Cybersécurité
 
 Ce dépôt contient une collection de scripts de cybersécurité développés à des fins d'apprentissage et d'entrainement, il aborde des thèmes comme la collecte de données, l'analyse et les tests de sécurité... Les scripts sont organisés en dossiers en fonction de leur fonctionnalité.
 
