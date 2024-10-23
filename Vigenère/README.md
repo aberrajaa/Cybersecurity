@@ -4,11 +4,9 @@ Ce projet contient deux scripts Python permettant de chiffrer et de déchiffrer 
 
 ## Contenu du projet
 
-- **`vigenere.py` :**  
-  Ce script permet de chiffrer et de déchiffrer un fichier en utilisant le chiffre de Vigenère avec une clé donnée.
-
-- **`vigenere_attack.py` :**  
-  Ce script permet de deviner la longueur de la clé et d'effectuer une attaque par analyse de fréquences pour retrouver la clé utilisée dans un texte chiffré par Vigenère.
+- **vigenere.py** : Ce script permet de chiffrer et de déchiffrer un fichier en utilisant le chiffre de Vigenère avec une clé donnée.
+  
+- **vigenere_attack.py** : Ce script permet de deviner la longueur de la clé et d'effectuer une attaque par analyse de fréquences pour retrouver la clé utilisée dans un texte chiffré par Vigenère.
 
 ## Utilisation
 
@@ -27,9 +25,13 @@ Pour déchiffrer un fichier chiffré avec une clé connue :
 python vigenere.py --decrypt --input fichier_chiffre.txt --output fichier_dechiffre.txt --key VOTRE_CLE
 ```
 
-### Attaque du chiffre de Vigenère
-Le script vigenere_attack.py permet d'effectuer une attaque par fréquence pour retrouver la clé utilisée dans un texte chiffré. Le script utilise les fréquences des lettres courantes dans la langue anglaise pour deviner la clé lors de l'attaque.
+## Attaque du chiffrement de Vigenère
+Le script vigenere_attack.py effectue une attaque par brute force pour retrouver la clé utilisée dans un texte chiffré.
+Limitations : L'attaque par force brute devient impraticable avec des clés de plus de 5 lettres en raison du nombre exponentiel de combinaisons possibles.
 
-### Exemple de fichiers
-Un exemple de fichier chiffré est fourni sous le nom fichier_chiffre.txt. Vous pouvez l'utiliser pour tester le déchiffrement ou l'attaque par fréquence.
+## Pistes pour des techniques plus rapides
+Analyse de fréquence : Utiliser les fréquences des lettres et des bigrammes pour réduire le nombre de combinaisons possibles.
+Indices de coïncidence : Utiliser cette méthode pour estimer la longueur de la clé avant d'appliquer d'autres attaques.
 
+## Exemples de fichiers
+Un exemple de fichier chiffré avec la clé READ est fourni sous le nom fichier_chiffre.txt. Vous pouvez l'utiliser pour tester le déchiffrement ou l'attaque par brute force.
