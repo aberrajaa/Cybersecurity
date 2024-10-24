@@ -2,8 +2,7 @@
 
 ## Description
 
-`keylogger.py` est un script Python qui enregistre les frappes de touches sur un clavier à l'aide de la bibliothèque `pynput`. Les données sont enregistrées dans un fichier texte nommé `keylog.txt`. Ce script est conçu à des fins éducatives uniquement, afin de démontrer comment les événements du clavier peuvent être capturés en Python.
-
+`keylogger.py` est un script Python qui enregistre les frappes de touches sur un clavier à l'aide de la bibliothèque `pynput`. Les données sont enregistrées dans un fichier texte nommé `keylog.txt`. Ce script est conçu à des fins d'apprentissage uniquement.
 ## Fonctionnalités
 
 - Enregistre chaque touche pressée, y compris les touches spéciales.
