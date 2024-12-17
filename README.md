@@ -43,6 +43,9 @@ Ce dossier contient des scripts permettant une attaque Reverse Shell. Ces script
 ### Vigenère
 Ce dossier contient des implémentations du chiffre de Vigenère, démontrant des techniques de chiffrement et de déchiffrement de base ainsi qu'un script d'une attaque par brute force de l'algorithme.
 
+### Password checker
+ce script permet de tester votre mot de passe, il fournit un score, le temps qu'il faut pour le brute-forcer, un feedback dessus et des suggestions, le nombre de fois que ce mot de passe a été retrouvé dans des leaks, et une suggestion de mot de passe à la fin grâce à un générateur de mot de passe.
+
 ## Pour commencer
 
 Pour utiliser l'un des scripts, clonez ce dépôt sur votre machine locale et suivre le Readme associé à chaque dossier. :
