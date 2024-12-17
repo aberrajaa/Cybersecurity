@@ -13,6 +13,7 @@ Ce dépôt contient une collection de scripts de cybersécurité développés à
 - [Remote Access Tools](#remote-access-tools)
 - [Reverse Shell](#reverse-shell)
 - [Vigenère](#vigenère)
+- [Password Checker](#password_checker)
 
 ## Description des dossiers
 
@@ -44,7 +45,7 @@ Ce dossier contient des scripts permettant une attaque Reverse Shell. Ces script
 Ce dossier contient des implémentations du chiffre de Vigenère, démontrant des techniques de chiffrement et de déchiffrement de base ainsi qu'un script d'une attaque par brute force de l'algorithme.
 
 ### Password checker
-ce script permet de tester votre mot de passe, il fournit un score, le temps qu'il faut pour le brute-forcer, un feedback dessus et des suggestions, le nombre de fois que ce mot de passe a été retrouvé dans des leaks, et une suggestion de mot de passe à la fin grâce à un générateur de mot de passe.
+Ce script permet de tester votre mot de passe, il fournit un score, le temps qu'il faut pour le brute-forcer, un feedback dessus et des suggestions, le nombre de fois que ce mot de passe a été retrouvé dans des leaks, et une suggestion de mot de passe à la fin grâce à un générateur de mot de passe.
 
 ## Pour commencer
 
